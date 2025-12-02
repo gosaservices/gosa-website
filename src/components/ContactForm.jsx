@@ -27,7 +27,6 @@ const ContactForm = () => {
   const handleFocus = (fieldName) => setActiveField(fieldName)
   const handleBlur = () => setActiveField('')
 
-  // This version works 100% with Netlify
   const handleSubmit = async (e) => {
     e.preventDefault()
     setIsSubmitting(true)
@@ -109,7 +108,7 @@ const ContactForm = () => {
             </div>
           </motion.div>
 
-          {/* Contact Form – Netlify-ready */}
+          {/* Contact Form */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -170,9 +169,6 @@ const ContactForm = () => {
                 </div>
               </div>
 
-              {/* ... all other fields exactly the same as before ... */}
-              {/* (I kept them identical – just copy-paste the rest from your original file) */}
-
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">Phone Number *</label>
@@ -207,9 +203,6 @@ const ContactForm = () => {
                   </div>
                 </div>
               </div>
-
-              {/* Continue with all the other input fields exactly as you had them */}
-              {/* I'll paste the remaining ones quickly so you can just copy the whole thing */}
 
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
