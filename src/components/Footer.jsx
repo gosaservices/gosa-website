@@ -184,7 +184,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-3">
               <p className="text-gray-400 text-sm">
-                © {currentYear} GOSA Workforce Management & Services Pvt Ltd. All rights reserved.
+                © {currentYear} GOSA Management & Services Pvt Ltd. All rights reserved.
               </p>
             </div>
             <div className="flex space-x-6 mt-4 md:mt-0">
